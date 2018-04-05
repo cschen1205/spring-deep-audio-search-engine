@@ -2,4 +2,4 @@
 
 mvn -f pom.xml clean package -Plocal -U
 
-cp /target/pdf-search-engine.jar pdf-search-engine.jar
+cp /target/deep-audio-search-engine.jar deep-audio-search-engine.jar
