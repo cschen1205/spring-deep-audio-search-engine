@@ -334,7 +334,7 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
-                            <finalName>pdf-search-engine</finalName>
+                            <finalName>deep-audio-search-engine</finalName>
                             <transformers>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">

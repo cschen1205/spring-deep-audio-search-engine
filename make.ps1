@@ -9,7 +9,7 @@ if($args.length -gt 0) {
 
 Invoke-Expression -Command:"mvn -f pom.xml clean package -P$profile -U"
 
-$projs=@("pdf-search-engine")
+$projs=@("deep-audio-search-engine")
 foreach ($proj in $projs){
     $source=$PSScriptRoot + "/target/" + $proj + ".jar"
     $dest=$PSScriptRoot + "/" + $proj + ".jar"

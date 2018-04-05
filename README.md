@@ -18,7 +18,7 @@ If you are on a unix machine, run the following command:
 
 ```bash
 mvn -f pom.xml clean package -Plocal -U
-cp dp-machine-learning-server/target/dp-machine-learning-server.jar bin/dp-machine-learning-server.jar 
+cp target/deep-audio-search-engine.jar deep-audio-search-engine.jar 
 ```
 
 ### Run backend
@@ -26,7 +26,7 @@ cp dp-machine-learning-server/target/dp-machine-learning-server.jar bin/dp-machi
 Run the following command from the root directory of the project:
 
 ```bash
-java -jar bin/dp-machine-learning-server.jar
+java -jar deep-audio-search-engine.jar
 ```
 
 This will start the backend server running at http://localhost:8081
@@ -38,7 +38,7 @@ To view the list of api available, the link is at http://localhost:8081/swagger-
 Run the following command from the root directory of the project:
 
 ```bash
-cd dp-machine-learning-frontend
+cd frontend
 npm install
 npm start
 ``` 
